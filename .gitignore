@@ -1,0 +1,9 @@
+infra/tf-app/.terraform.lock.hcl
+infra/tf-app/.terraform
+infra/tf-app/.tflint.hcl
+infra/tf-app/tf-app.plan
+
+infra/tf-backend/.terraform
+infra/tf-backend/.terraform.lock.hcl
+infra/tf-backend/tf-backend.plan
+
