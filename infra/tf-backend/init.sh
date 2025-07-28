@@ -24,3 +24,9 @@ terraform plan --out=tf-backend.plan
 
 # Apply the changes
 terraform apply tf-backend.plan
+
+# Export the ARM_ACCESS_KEY
+export ARM_ACCESS_KEY=$(terraform output -raw arm_access_key)
+
+# Print the ARM_ACCESS_KEY
+echo "ARM_ACCESS_KEY: $ARM_ACCESS_KEY"

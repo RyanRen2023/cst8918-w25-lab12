@@ -27,6 +27,9 @@ resource "azurerm_storage_account" "storage_account" {
   account_tier             = "Standard"
   account_replication_type = "LRS"
   min_tls_version          = "TLS1_2"
+  tags = {
+    "Cost Center" = "000"
+  }
 }
 
 resource "azurerm_storage_container" "storage_container" {
