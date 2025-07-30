@@ -8,7 +8,3 @@ plugin "azurerm" {
   version = "0.45.0"
   source  = "github.com/terraform-linters/tflint-ruleset-azurerm"
 }
-
-config {
-  module = true
-}
