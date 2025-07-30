@@ -1,3 +1,8 @@
+plugin "terraform" {
+  enabled = true
+  preset  = "all"
+}
+
 plugin "azurerm" {
   enabled = true
   version = "0.45.0"
