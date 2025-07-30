@@ -19,6 +19,10 @@ env:
   # This one is for the storage account that stores the terraform state
   ARM_ACCESS_KEY: "${{ secrets.ARM_ACCESS_KEY }}"
 
+defaults:
+  run:
+    working-directory: ./infra/tf-app  
+
 jobs:
   terraform-plan:
     name: 'Terraform Plan'
