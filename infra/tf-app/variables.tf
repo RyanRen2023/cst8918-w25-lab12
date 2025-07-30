@@ -10,8 +10,4 @@ variable "resource_group_location" {
   default     = "canadacentral"
 }
 
-variable "resource_prefix" {
-  type        = string
-  description = "The prefix for the resource"
-  default     = "ren00055-a12"
-}
+
