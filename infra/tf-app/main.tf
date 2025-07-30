@@ -16,7 +16,8 @@ resource "azurerm_storage_account" "storage_account" {
   account_replication_type = "LRS"
   min_tls_version          = "TLS1_2"
   tags = {
-    environment = "Production"
+    environment = "Production",
+    "Cost Center" = "000"
   }
 }
 
